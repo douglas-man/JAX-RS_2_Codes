@@ -1,0 +1,5 @@
+org\bookstore\readerwriter\BooksResource.class
+org\bookstore\readerwriter\MessageBodyReaderWriter.class
+org\bookstore\readerwriter\Book.class
+org\bookstore\readerwriter\HelloWorldApplication.class
+org\bookstore\readerwriter\TestServlet.class

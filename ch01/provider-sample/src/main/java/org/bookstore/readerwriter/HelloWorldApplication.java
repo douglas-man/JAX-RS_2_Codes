@@ -13,12 +13,13 @@ import javax.ws.rs.core.Application;
 
 
 
-@ApplicationPath("/library")
+@ApplicationPath("/")
 public class HelloWorldApplication extends Application {
     @Override
     public Set<Class<?>> getClasses() {
         Set<Class<?>> classes = new HashSet<Class<?>>();
         classes.add(BooksResource.class);
+        classes.add(MessageBodyReaderWriter.class);
         return classes;
     }
 }
